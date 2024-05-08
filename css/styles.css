@@ -17,6 +17,48 @@ ol {
 button {
   cursor: pointer;
 }
+
+/* HEADER STYLES */
+
+.container {
+  width: 1360px;
+  margin: 0 auto;
+}
+
+header > .container {
+  width: 1360px;
+  margin: 0 auto;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.nav-container {
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.20686;
+  color: #fff;
+}
+.logo-green {
+  color: #28a745;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+.nav-list-item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56444;
+  color: #fff;
+}
+
+/* --------- */
+
 .our-team {
 }
 
